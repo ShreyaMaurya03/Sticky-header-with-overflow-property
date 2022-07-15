@@ -1,0 +1,11 @@
+.container{
+   width:700px;
+   height: 500px;
+   position: relative;
+  overflow: hidden;       /*hide in x direction*/
+  overflow-y: scroll;     /* Add scrollbar in y direction */
+}
+  .container h1{
+    position: sticky;  /*Use if you want to stick heading on top*/
+	 top: 0;
+  }
